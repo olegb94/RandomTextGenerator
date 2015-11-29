@@ -71,7 +71,7 @@ def generate(number_of_words, first_words_dist, third_words_dist):
 
 def main(args):
     if len(args) != 4:
-        print("Usage: learn.py <path to dictionary> <pass to result> <number of words>.")
+        print("Usage: generate.py <path to dictionary> <pass to result> <number of words>.")
         return
     dict_filename = args[1]
     output_filename = args[2]
